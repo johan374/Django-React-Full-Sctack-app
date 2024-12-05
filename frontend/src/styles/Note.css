@@ -1,0 +1,50 @@
+.note-container {
+    padding: 10px; 
+    /* Adds 10px space inside the container for better readability. */
+    margin: 20px 0; 
+    /* Adds vertical space between note containers (20px on top and bottom). */
+    border: 1px solid #ccc; 
+    /* Adds a 1px solid border with a light gray color (#ccc). */
+    border-radius: 5px; 
+    /* Rounds the corners of the container with a 5px radius for a smoother look. */
+}
+  
+.note-title {
+    color: #333; 
+    /* Sets the text color to a dark gray (#333) for the note title. */
+}
+  
+.note-content {
+    color: #677; 
+    /* Sets the text color to a medium gray (#677) for the note content. */
+}
+
+.note-date {
+    color: #999; 
+    /* Sets the text color to a light gray (#999), making it less prominent. */
+    font-size: 0.8rem; 
+    /* Reduces the font size to 0.8 times the default size for a more subtle appearance. */
+}
+
+  
+.delete-button {
+    background-color: #f44336; 
+    /* Sets the button's background color to red (#f44336) to indicate a delete action. */
+    color: white;
+    /* Makes the text color white for better contrast with the red background. */
+    border: none; 
+    /* Removes any default border from the button. */
+    padding: 10px 20px; 
+    /* Adds space inside the button (10px vertically and 20px horizontally). */
+    border-radius: 5px; 
+    /* Rounds the button corners with a 5px radius for a smoother look. */
+    cursor: pointer; 
+    /* Changes the cursor to a pointer (hand icon) to indicate the button is clickable. */
+    transition: background-color 0.3s; 
+    /* Adds a smooth transition effect of 0.3 seconds when the background color changes (e.g., on hover). */
+}
+ 
+.delete-button:hover {
+    background-color: #d32f2f; 
+    /* Changes the button's background to a darker red (#d32f2f) when hovered over. */
+}

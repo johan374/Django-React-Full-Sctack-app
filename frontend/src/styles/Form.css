@@ -1,0 +1,38 @@
+.form-container {
+    display: flex; /* Enables a flexbox layout for this container. */
+    flex-direction: column; /* Aligns child elements (form inputs and button) in a vertical column. */
+    align-items: center; /* Centers child elements horizontally within the container. */
+    justify-content: center; /* Centers child elements vertically within the container. */
+    margin: 50px auto; /* Adds vertical spacing above and below (50px), and centers horizontally using `auto`. */
+    padding: 20px; /* Adds 20px of internal spacing inside the container. */
+    border-radius: 8px; /* Rounds the corners of the container by 8px. */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow below the container to create a [lifted effect]. */
+    max-width: 400px; /* Sets the maximum width of the container to 400px to limit its size. */
+}
+
+  
+.form-input {
+    width: 90%; /* Sets the input's width to 90% of its parent's width. */
+    padding: 10px; /* Adds 10px of internal spacing inside the input box. */
+    margin: 10px 0; /* Adds vertical spacing (10px) above and below the input box, no horizontal spacing. */
+    border: 1px solid #ccc; /* Creates a thin gray border around the input box. */
+    border-radius: 4px; /* Rounds the corners of the input box by 4px. */
+    box-sizing: border-box; /* Ensures padding and borders are included in the total width/height calculation. */
+}
+
+.form-button {
+    width: 95%; /* Sets the button's width to 95% of its parent's width. */
+    padding: 10px; /* Adds 10px of internal spacing inside the button. */
+    margin: 20px 0; /* Adds vertical spacing (20px) above and below the button. */
+    background-color: #007bff; /* Sets the button's background color to a blue shade. */
+    color: white; /* Sets the button's text color to white. */
+    border: none; /* Removes any default borders around the button. */
+    border-radius: 4px; /* Rounds the corners of the button by 4px. */
+    cursor: pointer; /* Changes the cursor to a pointer (hand icon) when hovering over the button. */
+    transition: background-color 0.2s ease-in-out; /* Smoothly animates background color changes over 0.2 seconds. */
+}
+
+  
+.form-button:hover {
+    background-color: #0056b3; /* Changes the button's background color to a darker blue when hovered over. */
+}

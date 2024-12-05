@@ -1,0 +1,69 @@
+/* General styles for all div elements in the page */
+div {
+    font-family: Arial, sans-serif; /* Sets a clean, sans-serif font for all text in div elements */
+  }
+  
+  /* Styles for the section that contains the notes */
+  .notes-section {
+    margin-bottom: 2rem; /* Adds space below the notes section */
+  }
+  
+  .notes-section h2 {
+    color: #333; /* Sets the text color to a dark gray */
+    font-size: 24px; /* Sets the font size for headings within the notes section */
+  }
+  
+  /* Styles for individual notes, assuming the notes are wrapped in a container with a class "note" */
+  .note {
+    background-color: #f9f9f9; /* Sets a light gray background color for better readability */
+    border-left: 5px solid #007bff; /* Adds a blue accent border to the left of each note */
+    margin: 10px 0; /* Adds vertical spacing between notes */
+    padding: 10px 15px; /* Adds internal spacing inside the note container */
+    border-radius: 5px; /* Rounds the corners of the note container */
+  }
+  
+  /* Styles for the form section (used for creating new notes or inputs) */
+  form {
+    background-color: #fff; /* Sets a white background for the form */
+    padding: 20px; /* Adds spacing inside the form container */
+    border-radius: 8px; /* Rounds the corners of the form */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to create a floating effect */
+    max-width: 500px; /* Limits the form's width to 500px for better readability */
+    margin: auto; /* Centers the form horizontally on the page */
+  }
+  
+  form h2 {
+    color: #333; /* Sets the heading color to dark gray */
+    font-size: 24px; /* Sets the font size of the heading inside the form */
+    margin-bottom: 20px; /* Adds space below the heading */
+  }
+  
+  form label {
+    font-weight: bold; /* Makes the text bold for better visibility */
+    margin-top: 10px; /* Adds spacing above the label text */
+  }
+  
+  form input,
+  form textarea {
+    width: 100%; /* Makes the input and textarea fields span the full width of the form */
+    padding: 8px; /* Adds internal spacing for text inside the fields */
+    margin: 8px 0 16px; /* Adds vertical spacing between fields */
+    border: 1px solid #ccc; /* Adds a light gray border around the fields */
+    border-radius: 4px; /* Rounds the corners of the fields */
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's width and height */
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff; /* Sets a blue background color for the submit button */
+    color: white; /* Makes the button text white */
+    padding: 10px 20px; /* Adds internal spacing for the button */
+    border: none; /* Removes any border from the button */
+    border-radius: 4px; /* Rounds the button's corners */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    font-size: 16px; /* Sets the font size for the button text */
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darkens the button color when hovered over */
+  }
+  

@@ -1,0 +1,33 @@
+/* Container for the loader element */
+.loader-container {
+    display: flex; /* Makes the container a flexbox for easy alignment */
+    justify-content: center; /* Horizontally centers the loader within the container */
+    align-items: center; /* Vertically centers the loader within the container */
+  }
+  
+  /* The spinning loader design */
+  .loader {
+    border: 5px solid #f3f3f3; /* Creates a 5px border with a light grey color */
+    border-top: 5px solid #3498db; /* Changes the top part of the border to blue, creating a visual spin effect */
+    border-radius: 50%; /* Makes the element a perfect circle */
+    width: 50px; /* Sets the width of the loader */
+    height: 50px; /* Sets the height of the loader */
+    animation: spin 2s linear infinite; /* Applies the "spin" animation:
+                                         - 2 seconds duration
+                                         - linear timing function for consistent speed
+                                         - infinite loop to keep spinning */
+  }
+  
+  /* Keyframes define the animation behavior over time */
+  @keyframes spin {
+    /* Defines the starting point of the animation */
+    0% {
+      transform: rotate(0deg); /* No rotation at the start */
+    }
+    
+    /* Defines the ending point of the animation */
+    100% {
+      transform: rotate(360deg); /* Completes one full rotation (360 degrees) */
+    }
+  }
+  

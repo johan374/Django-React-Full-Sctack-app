@@ -1,0 +1,5 @@
+# Ignore .env to protect sensitive environment variables
+.env
+
+# Ignore the SQLite database file
+db.sqlite3

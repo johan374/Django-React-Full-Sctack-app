@@ -1,7 +1,7 @@
 version: 0.1  # Specifies the version of the configuration file. It's useful for backward compatibility or future updates.
 
 endpoints:  # This section defines a list of API endpoints.
-  - name: "Backend API"  # The name of the endpoint. This can be a human-readable label for the API endpoint.
+  - name: "REST API"  # The name of the endpoint. This can be a human-readable label for the API endpoint.
     port: 8000  # The port on which the API endpoint will be exposed. Port 8000 is commonly used for development.
     type: REST  # The type of the endpoint. In this case, it's a RESTful API, which is a standard architectural style for web services.
     networkVisibility: Public  # Specifies whether the endpoint is publicly accessible (e.g., accessible on the internet) or private (restricted access).

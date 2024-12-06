@@ -18,7 +18,11 @@ SECRET_KEY = 'django-insecure-b0j7wk+lfjt+n9u)8!oqm4(bcf_+xsv!mmrznxp5x=zeyv#_-9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*'] #new featuree *
+ALLOWED_HOSTS = [
+    '*',  # Be careful in production
+    'backend-4148742600.dp-development-djangoreacttutoria-54517-1436196036.svc.cluster.local',
+    # Add your specific Choreo domain here
+]
 
 #new code
 REST_FRAMEWORK = {
